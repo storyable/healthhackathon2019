@@ -1,4 +1,12 @@
-question1,answer1,question2,answer2,question3,answer3,question4,answer4
-어디가 아프신가요,배,,,,,,
-어디가 아프신가요,머리,,,,,,
-어디가 아프신가요,열발생,,,,,,
+question1,answer1,question2,answer2,question3,answer3
+열이 나나요?,예,<end>,</end>,,
+열이 나나요?,아니오,<end>,</end>,,
+언제부터아팠나요,1일,<end>,</end>,,
+언제부터아팠나요,1-7일,<end>,</end>,,
+언제부터아팠나요,7-30일,<end>,</end>,,
+언제부터아팠나요,30일 이상,<end>,</end>,,
+술을 드셨나요?,예,취할 정도로 많이 드셨나요?,예,<end>,</end>
+술을 드셨나요?,예,취할 정도로 많이 드셨나요?,아니오,<end>,</end>
+술을 드셨나요?,아니오,<end>,</end>,,
+설사도 하시나요?,예,<end>,</end>,,
+설사도 하시나요?,아니오,<end>,</end>,,
