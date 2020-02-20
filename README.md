@@ -22,7 +22,11 @@
 14:00-17:00 최종 발표  
 17:00-18:00 시상 및 폐회  
 
+### Classify Model 
 
+증상분류 모델은 base model은 xgboost 모델을 사용하였으며 
+Bayesian optimization을 통해 optimize 된 모델을 찾은 뒤 다른 모델과 앙상블을 하여 최종 모델을 선정했습니다.
+주요 모델의 Accuracy는 다음과 같습니다.
 
 Model                                    | Accuracy        |
 ---------------------------------------- | :-------------: | 
