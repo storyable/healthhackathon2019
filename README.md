@@ -24,8 +24,13 @@
 
 ### Classify Model 
 
-증상분류 모델은 base model은 xgboost 모델을 사용하였으며 
-Bayesian optimization을 통해 optimize 된 모델을 찾은 뒤 다른 모델과 앙상블을 하여 최종 모델을 선정했습니다.
+증상분류모델은 환자가 입력한 쿼리를 바꾼 임베딩 벡터를 주증상 9개중 하나로 multiclassify 하는 모델입니다.
+
+
+증상분류 모델은 Base Model은 XGBoost 모델을 사용하였으며
+Bayesian optimization을 통해 optimize 된 모델을 찾은 뒤 DNN Model과 앙상블을 하여 최종 모델을 선정했습니다.
+
+
 주요 모델의 Accuracy는 다음과 같습니다.
 
 Model                                    | Accuracy        |
