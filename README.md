@@ -21,3 +21,11 @@
 13:00-14:00 팀 별 데모 행사  
 14:00-17:00 최종 발표  
 17:00-18:00 시상 및 폐회  
+
+
+
+Model                                    | Accuracy        |
+---------------------------------------- | :-------------: | 
+xgboost                                  | 81.2            | 
+xgboost using Bayesian optimize          | 89.2            | 
+optimize xgboost and ensemble            | 92.4            | 
